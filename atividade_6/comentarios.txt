@@ -1,0 +1,9 @@
+/*
+
+Q1: A classe Retangulo não está possuindo construtor(es). Os atributos dessa classe deveriam possuir valor default igual a 1, ou seja, se uma instância da classe fosse criada sem passar valores para atribuir aos atributos, eles deveriam ser inicializados com valor igual a 1. Também faria sentido que houvesse um construtor que inicializasse esses valores com parâmetros passados. 
+
+Q2: A questão deveria conter uma classe de teste. Os métodos de soma e subtração estão alterando os valores dos atributos do objeto que os chama. Já que o retorno do método é uma nova instância de Racional, todas as alterações de valores (valor total dos cálculos) deveria ter sido feita nessa nova instância, de forma a preservar os valores dos objetos que participam da operação. Por exemplo, temos três objetos do tipo Racional: r1: 5/3,  r2: 1/3, e r3: 1/4; após realizarmos as operações r1.adição(r2) e r2.adicao(r3) os valores passam a ser  r1: 5/3,  r2: 4/3, e r3: ¾. O ideal seria que os valores permanecessem iguais após as chamadas do método. Deveria haver uma verificação para que o valor 0 não pudesse ser atribuído ao denominador da fração.
+
+NOTA: 6.8/10
+
+*/

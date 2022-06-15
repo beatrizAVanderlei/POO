@@ -1,0 +1,34 @@
+/*
+
+Q1
+
+Crie a classe Retangulo.
+A classe possui atributos de altura e largura, ambos
+com valor default 1.
+Ela possui métodos para calcular o perímetro e a área
+do retângulo.
+Ela possui métodos get e set para altura e largura.
+Os métodos set devem verificar que altura e largura
+são números de ponto flutuante maiores que 0.0 e
+menores que 20.0.
+Escreva um programa para testar a classe Retangulo.
+
+Q2
+
+Crie a classe Racional para realizar operações com frações.
+Use variáveis inteiras para representar os atributos
+privados numerador e denominador.
+Crie um construtor que inicializa a fração na forma
+reduzida. Ex.: Τ
+2/4 deve ser armazenado como Τ
+1/2.
+
+Crie pelo menos os métodos públicos para:
+Adição de dois números racionais
+Subtração de dois números racionais
+Multiplicação de dois números racionais
+Divisão de dois números racionais
+Print na forma a/b
+Print como ponto flutuante
+
+*/
