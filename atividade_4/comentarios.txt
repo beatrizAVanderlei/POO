@@ -1,0 +1,10 @@
+/*
+
+Q1: A questão pedia a criação de uma classe BancoDePalavras; essa classe deveria ser aparte ao teste, conter atributos, métodos, construtores, etc. O main deveria ser utilizado apenas para testar a classe.  
+
+Q2, Q3, Q4: A classe MatrizDeInteiros deveria representar uma matriz de inteiros, ou seja, conter atributo(s) que representassem essa matriz. 
+O método eIgual() deveria comparar duas matrizes: a encapsulada no objeto que chamou o método e um recebido como parâmetro. Ou seja: se chamássemos matriz1.eIgual(matriz2) estaríamos comparando as matrizes contidas nos objetos matriz1 e matriz2, então não precisaríamos receber ambos como parâmetro. O mesmo ocorre nos métodos para verificar se a matriz é quadrada ou é um quadrado mágico, eles deveriam checar se a matriz encapsulada naquela classe atendia aos requisitos; não precisavam receber parâmetros. E já que os métodos estariam atrelados a um objeto (no caso, matriz1 seria um obejto do tipo MatrizDeInteiros; se chamássemos matriz1.eQuadrada(), esse método estaria atrelado ao objeto matriz1, que o chamou), não teria necessidade de usar o static. O código de teste não deveria estar junto do projeto de classe.
+
+NOTA: 5.7/10
+
+*/

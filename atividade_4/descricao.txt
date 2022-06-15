@@ -1,0 +1,42 @@
+/*
+
+Q1
+
+Crie uma classe de banco de palavras que
+encapsula um vetor de palavras.
+A classe deve ter um método para sortear uma
+palavra do vetor.
+Dica
+Utilize o método nextInt(int limite) da classe Random da
+API de Java para gerar um número aleatório no
+intervalo [0, limite[
+Não esqueça de inicializar seu arquivo com o comando
+import java.util.Random;
+
+Q2
+
+Crie uma classe denominada MatrizDeInteiros para
+representar uma matriz de valores do tipo int.
+Essa classe deve conter um método denominado
+eIgual para verificar se duas matrizes são iguais e
+que, portanto, deve retornar true se as matrizes
+comparadas forem iguais ou false, caso contrário.
+Duas matrizes devem ser consideradas iguais se
+forem do mesmo tamanho e guardarem os mesmos
+valores.
+
+Q3
+
+Escreva o método éQuadrada para a classe
+MatrizDeInteiros, que retorna true se a matriz for
+quadrada, isto é, se a matriz tem o mesmo número
+de linhas e colunas.
+
+Q4
+
+Escreva o método éQuadrada para a classe
+MatrizDeInteiros, que retorna true se a matriz for
+quadrada, isto é, se a matriz tem o mesmo número
+de linhas e colunas.
+
+*/
