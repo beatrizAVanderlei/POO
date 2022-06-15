@@ -1,0 +1,7 @@
+/*
+
+Q3: A classe JogoDeCraps deveria ser uma classe aparte à de teste, com seus próprios métodos, atributos, etc. As etapas do jogo deveriam ter sido implementadas como métodos na classe JogoDeCraps; a chamada desses métodos seria o que daria o fluxo de jogo. A variável “ganhou” não está sendo usada.
+
+NOTA: 7/10
+
+*/
