@@ -1,0 +1,9 @@
+/*
+
+Q2: Seria mais correto que as informações dos objetos tipo Lampada fossem passadas ao main por meio do toString().
+
+Q3: Faria sentido a comparação entre dois objetos do tipo Employee para saber se são iguais, então seria interessante que essa classe sobrescrevesse o método equals().
+
+NOTA: 8.8/10
+
+*/

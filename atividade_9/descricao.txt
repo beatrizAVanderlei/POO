@@ -1,0 +1,49 @@
+/*
+
+Q1
+
+Usando interfaces, é possível especificar
+comportamentos semelhantes para classes díspares
+Crie três classes pequenas não relacionadas por meio
+de herança (Building, Car e Bicycle), dando-lhes alguns
+atributos e comportamentos adequados únicos
+Escreva a interface CarbonFootprint com o método
+getCarbonFootprint
+Faça suas classes implementarem essa interface
+Confira alguns sites que explicam como calcular
+pegadas de carbono
+Escreva um programa que cria objetos de cada
+classe, insere referências a esses objetos em um
+ArrayList de CarbonFootprint e então itera pelo
+ArrayList polimorficamente invocando o método
+getCarbonFootprint de cada objeto
+
+Para cada objeto, imprima algumas informações de
+identificação e a pegada de carbono do objeto
+
+Q2
+
+Atualize a classe Lampada (Lista 1) para ser
+possível ordenar um ArrayList de Lampada pela
+potência em watts, em ordem decrescente.
+Em seguida, crie um código de teste, demonstrando
+a ordenação.
+
+Q3
+
+Implemente a interface Measurable com o método
+double getMeasure() que mede um objeto de
+alguma forma
+Faça a classe Empregado (superclasse da
+hierarquia da Lista 6) implementar a interface
+Measurable
+Em uma classe utilitária, implemente um método que
+calcula a média das medidas de um vetor de
+objetos Measurable
+Use esse método para calcular a média da
+remuneração (o total recebido pelo empregado) de
+um conjunto de empregados
+
+*/
+
+
