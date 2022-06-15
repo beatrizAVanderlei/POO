@@ -1,0 +1,9 @@
+/*
+
+Q3: O saque só deveria ser feito se o valor estivesse entre R$10 e R$600.
+
+OBS.: Na Q1 as vendas em questão deveriam pertencer todas a um mesmo vendedor, ou seja, a porcentagem aplicada deveria ser à soma de todos os itens
+
+NOTA: 9.5/10
+
+*/
