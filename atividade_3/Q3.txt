@@ -1,0 +1,4 @@
+Qual o tipo de associação entre as classes Conta e Contador, de acordo com a UML: agregação ou composição?
+
+É uma relação de composição. Já que, quando se diz que algo pertence a uma composição, fala-se que uma classe A está contida na B, a parte A não existindo sem a parte B.
+Sendo assim, o contador não pode ser incrementado sem que exista uma conta e ocorra transferências entre ela e outras contas.

@@ -1,0 +1,49 @@
+/*
+
+Q1
+
+Escreva a classe Contador que encapsule um valor
+usado para contagem de itens ou eventos e que
+contenha métodos para zerar, incrementar e
+consultar o valor do contador.
+A classe deve ter dois construtores, um que
+considere que o contador começa a contar a partir
+do zero, e outro que aceita um valor inicial para
+contagem.
+
+Q2
+
+Usando a classe Contador, atualize a classe Conta do
+nosso sistema bancário para registrar quantas
+transferências bancárias foram realizadas a partir de
+uma conta.
+A cada 5 transferências realizadas, deverá ser
+descontada uma taxa de serviço no valor de R$2,00,
+desde que haja saldo suficiente.
+Caso não haja saldo suficiente na conta no momento, a
+taxa de serviço deverá ser incrementada em R$1,00.
+Escreva um programa de teste para exibir quantas
+transferências foram realizadas em uma conta e a
+atualização do saldo.
+
+Q3
+
+Qual é o tipo de associação entre as classes Conta
+e Contador, de acordo com a UML: agregação ou
+composição?
+Justifique a sua decisão de projeto.
+Observação: A resposta dessa questão deve ser
+elaborada no arquivo Q3.txt
+
+Q4
+
+Crie uma nova classe de teste para a questão 2
+que usa a entrada padrão.
+O método main deve solicitar do usuário os dados
+necessários para realizar uma transferência
+bancária:
+O número da conta de origem
+O número da conta de destino
+O valor a ser transferido
+
+*/
