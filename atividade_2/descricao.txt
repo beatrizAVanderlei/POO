@@ -1,0 +1,46 @@
+/*
+
+Q1
+
+Crie uma classe que modele uma pessoa.
+Toda pessoa deve ter os atributos de nome, idade,
+peso e altura.
+Além disso, toda pessoa deve executar os métodos
+envelhecer, engordar, emagrecer e crescer.
+Por padrão, a cada ano que a pessoa envelhece,
+sendo a idade dela menor que 21 anos, ela deve
+crescer 0,5 cm.
+
+Q2
+
+Escreva uma classe ModeloDeComputador que encapsule
+valores que definam a configuração de um
+microcomputador (tipo de processador, memória RAM,
+tamanho do disco rígido, tamanho do monitor, por exemplo).
+Essa classe deve ter um método calculaPreço que calcule o
+preço do computador como sendo a soma do custo de seus
+componentes
+
+Componente   | Configuração/Preço
+Placa-mãe    | R$800
+Processador  | 600Mhz a R$700, 800Mhz a R$830, 933Mhz a R$910
+Memória      | 128, 256, 384 ou 512 Mb, cada 128Mb custa R$350
+Disco rígido | 20 Gb a R$300, 40 Gb a R$420, 60 Gb a R$500
+Monitor      | 15 polegadas a R$320, 17 polegadas a R$520
+
+Q3
+
+Crie a classe Data que contenha um método chamado vemAntes que receba como argumento outra instância da classe Data.
+O método deve retornar true se a data encapsulada vier antes da passada como argumento e false, caso contrário.
+Se as datas forem exatamente iguais, o método deve retornar true.
+Não esqueça de testar seu código.
+
+Se ano1 < ano2 a primeira data vem antes da segunda
+Se ano1 > ano2 a primeira data vem depois da segunda
+Se ano1 == ano2 e mês1 < mês2 a primeira data vem antes da segunda
+Se ano1 == ano2 e mês1 > mês2 a primeira data vem depois da segunda
+Se ano1 == ano2 e mês1 == mês2 e dia1 < dia2 a primeira data vem antes da segunda
+Se ano1 == ano2 e mês1 == mês2 e dia1 > dia2 a primeira data vem depois da segunda
+Em qualquer outro caso, as datas são exatamente iguais
+
+*/

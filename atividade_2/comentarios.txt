@@ -1,0 +1,9 @@
+/*
+
+OBS: No método crescer_e_envelhecer(), na classe Pessoa, a verificação de idade poderia ter se limitado a conferir se o resultado da idade era menor que 21; apenas se isso fosse verdadeiro a variável altura seria alterada. É redundante dizer que a altura atual é igual a altura atual.
+
+Q2: Placa-mãe deveria ser um atributo da classe. A variável “inicial” não se encaixa, nesse contexto, como um atributo da classe ModeloComputador. Queremos modelar um computador, “inicial” não é algo que o computador possua. É o valor inicial do preço de um computador, que está sendo calculado pelo método preco_computador, por isso deveria se limitar a existir dentro do método.
+
+NOTA: 9,3/10
+
+*/
