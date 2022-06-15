@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="502.0" prefWidth="667.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="gui.controladores.administrador.TelaConsultarHospedagensController">
+    <children>
+        <Label layoutX="180.0" layoutY="56.0" text="Hospedagens Cadastradas">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Label>
+        <TextArea fx:id="hospedagens" layoutX="-1.0" layoutY="107.0" prefHeight="336.0" prefWidth="667.0" />
+        <Button layoutX="292.0" layoutY="455.0" mnemonicParsing="false" onAction="#carregarHospedagens" text="Carregar hospedagens" />
+      <Button layoutX="212.0" layoutY="455.0" mnemonicParsing="false" onAction="#voltar" text="Voltar" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="502.0" prefWidth="667.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="gui.controladores.administrador.TelaConsultarPaisesController">
+   <children>
+      <Label layoutX="227.0" layoutY="55.0" text="Países Cadastrados">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="paises" layoutX="-1.0" layoutY="107.0" prefHeight="336.0" prefWidth="667.0" />
+      <Button layoutX="334.0" layoutY="454.0" mnemonicParsing="false" onAction="#carregarPaises" text="Carregar países" />
+      <Button layoutX="244.0" layoutY="454.0" mnemonicParsing="false" onAction="#voltar" text="Voltar" />
+   </children>
+</AnchorPane>

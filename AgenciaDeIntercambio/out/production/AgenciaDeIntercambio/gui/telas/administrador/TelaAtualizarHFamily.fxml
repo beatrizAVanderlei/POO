@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="502.0" prefWidth="667.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="gui.controladores.administrador.TelaAtualizarHFamilyController">
+    <children>
+        <Label layoutX="228.0" layoutY="14.0" text="Atualizar Host Family">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Label>
+        <Label layoutX="185.0" layoutY="111.0" text="Id da host family:">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="149.0" layoutY="150.0" text="Cidade da host family:">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="textFieldId" layoutX="346.0" layoutY="110.0" prefHeight="28.0" prefWidth="257.0" promptText="Digite o novo Id" />
+        <TextField fx:id="textFieldCidade" layoutX="346.0" layoutY="145.0" prefHeight="28.0" prefWidth="257.0" promptText="Digite a nova cidade">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Button layoutX="385.0" layoutY="460.0" mnemonicParsing="false" onAction="#atualizarHFamily" text="Salvar" />
+        <Button layoutX="289.0" layoutY="460.0" mnemonicParsing="false" onAction="#voltar" text="Voltar" />
+        <Label fx:id="labelErro" layoutX="200.0" layoutY="437.0" textFill="#fc1a1a">
+            <font>
+                <Font size="12.0" />
+            </font>
+        </Label>
+        <Label layoutX="95.0" layoutY="186.0" text="Quantidade atual de pessoas:">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="75.0" layoutY="260.0" text="Quantidade máxima de pessoas:">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="212.0" layoutY="224.0" text="Mensalidade:">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="textFieldQtdAtualPessoas" layoutX="346.0" layoutY="181.0" prefHeight="28.0" prefWidth="257.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="textFieldMensalidade" layoutX="346.0" layoutY="219.0" prefHeight="28.0" prefWidth="257.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="textFieldQtdMaxPessoas" layoutX="346.0" layoutY="255.0" prefHeight="28.0" prefWidth="257.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Label layoutX="74.0" layoutY="294.0" text="Quantidade de membros oficiais:">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="136.0" layoutY="332.0" text="A família possui um pai?">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="118.0" layoutY="370.0" text="A família possui uma mãe?">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="textFieldMembros" layoutX="346.0" layoutY="289.0" prefHeight="28.0" prefWidth="257.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="textFieldTemPai" layoutX="346.0" layoutY="327.0" prefHeight="28.0" prefWidth="257.0" promptText="Digite sim ou não">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="textFieldTemMae" layoutX="346.0" layoutY="365.0" prefHeight="28.0" prefWidth="257.0" promptText="Digite sim ou não">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Label layoutX="18.0" layoutY="402.0" text="Qual genero do intercambista a familia prefere?">
+            <font>
+                <Font size="12.0" />
+            </font>
+        </Label>
+        <TextField fx:id="textFieldGenero" layoutX="346.0" layoutY="396.0" prefHeight="28.0" prefWidth="257.0" promptText="Digite M para Masc. e F para Fem.">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+      <Label layoutX="66.0" layoutY="79.0" text="Id da host family a ser atualizada:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textFieldIdAntigo" layoutX="346.0" layoutY="74.0" prefHeight="28.0" prefWidth="257.0" />
+    </children>
+</AnchorPane>

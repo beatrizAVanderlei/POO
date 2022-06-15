@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="502.0" prefWidth="667.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="gui.controladores.administrador.TelaGerenciarHospedagensController">
+    <children>
+        <VBox layoutX="184.0" layoutY="101.0" prefHeight="300.0" prefWidth="300.0">
+            <children>
+                <Button fx:id="buttonAdicionarHospedagem" mnemonicParsing="false" onAction="#carregarTelaAdicionarHospedagem" prefWidth="249.0" text="Adicionar uma hospedagem">
+                    <VBox.margin>
+                        <Insets bottom="60.0" left="30.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Button>
+                <Button fx:id="buttonAtualizarHospedagem" mnemonicParsing="false" onAction="#carregarTelaAtualizarHospedagem" prefWidth="249.0" text="Atualizar uma hospedagem">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="60.0" left="30.0" />
+                    </VBox.margin>
+                </Button>
+                <Button fx:id="buttonRemoverHospedagem" mnemonicParsing="false" onAction="#carregarTelaRemoverHospedagem" prefWidth="249.0" text="Remover uma hospedagem">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="60.0" left="30.0" />
+                    </VBox.margin>
+                </Button>
+                <Button fx:id="buttonConsultarHospedagem" mnemonicParsing="false" onAction="#carregarTelaConsultarHospedagem" text="Consultar todas as hospedagens">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets left="30.0" />
+                    </VBox.margin>
+                </Button>
+            </children>
+        </VBox>
+        <Button layoutX="303.0" layoutY="435.0" mnemonicParsing="false" onAction="#voltar" text="Voltar" />
+    </children>
+</AnchorPane>

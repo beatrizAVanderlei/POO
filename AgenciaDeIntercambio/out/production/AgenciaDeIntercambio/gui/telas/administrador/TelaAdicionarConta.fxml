@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="502.0" prefWidth="667.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="gui.controladores.administrador.TelaAdicionarContaController">
+    <children>
+        <Label layoutX="240.0" layoutY="72.0" text="Adicionar Conta">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Label>
+        <Label layoutX="149.0" layoutY="151.0" text="Id da hospedagem:">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="180.0" layoutY="194.0" text="CPF do cliente:">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="172.0" layoutY="241.0" text="Nome da cidade:">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <TextField fx:id="textFieldId" layoutX="315.0" layoutY="147.0" prefHeight="28.0" prefWidth="257.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="textFieldCPF" layoutX="315.0" layoutY="190.0" prefHeight="28.0" prefWidth="257.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="textFieldCidade" layoutX="315.0" layoutY="237.0" prefHeight="28.0" prefWidth="257.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Button layoutX="361.0" layoutY="450.0" mnemonicParsing="false" onAction="#salvar" text="Salvar" />
+        <Button layoutX="226.0" layoutY="450.0" mnemonicParsing="false" onAction="#voltar" text="Voltar" />
+        <Label layoutX="173.0" layoutY="286.0" text="Nome da escola:">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <TextField fx:id="textFieldEscola" layoutX="315.0" layoutY="282.0" prefHeight="28.0" prefWidth="257.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Label layoutX="111.0" layoutY="326.0" text="Reserva de emergencia:">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <TextField fx:id="textFieldReserva" layoutX="315.0" layoutY="322.0" prefHeight="28.0" prefWidth="257.0" promptText="mínimo 500">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Label fx:id="labelErro" layoutX="103.0" layoutY="418.0" prefHeight="16.0" prefWidth="473.0" textAlignment="CENTER" />
+      <Label layoutX="116.0" layoutY="367.0" text="Tempo de intercambio:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textFieldTempo" layoutX="312.0" layoutY="363.0" prefHeight="28.0" prefWidth="257.0" promptText="mínimo 1 mês">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+    </children>
+</AnchorPane>

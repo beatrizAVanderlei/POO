@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="502.0" prefWidth="667.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="gui.controladores.funcionario.TelaInicialFuncionarioController">
+   <children>
+      <Label layoutX="185.0" layoutY="56.0" text="Agência de Intercâmbio">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button layoutX="185.0" layoutY="126.0" mnemonicParsing="false" onAction="#carregarTelaCadastroCliente" prefWidth="298.0" text="Criar cadastro do cliente">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="185.0" layoutY="181.0" mnemonicParsing="false" onAction="#carregarTelaPlanejarDestino" prefWidth="298.0" text="Planejar destino">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="185.0" layoutY="230.0" mnemonicParsing="false" onAction="#carregarTelaConsultarPlanejamento" text="Consultar planejamento do cliente">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="185.0" layoutY="341.0" mnemonicParsing="false" onAction="#carregarTelaDesmatricularCliente" prefWidth="298.0" text="Desmatricular cliente">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="185.0" layoutY="392.0" mnemonicParsing="false" onAction="#carregarTelaCalcularCustos" prefWidth="298.0" text="Calcular custos do intercâmbio">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="185.0" layoutY="284.0" mnemonicParsing="false" onAction="#carregarTelaAtualizarPlanejamento" prefWidth="298.0" text="Atualizar planejamento do cliente">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="312.0" layoutY="443.0" mnemonicParsing="false" onAction="#voltar" text="Voltar" />
+   </children>
+</AnchorPane>

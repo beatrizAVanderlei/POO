@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="502.0" prefWidth="667.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="gui.controladores.administrador.TelaGerenciarClientesController">
+    <children>
+        <VBox layoutX="184.0" layoutY="101.0" prefHeight="300.0" prefWidth="300.0">
+            <children>
+                <Button fx:id="buttonAdicionarCliente" mnemonicParsing="false" onAction="#carregarTelaAdicionarCliente" prefWidth="209.0" text="Adicionar um cliente">
+                    <VBox.margin>
+                        <Insets bottom="60.0" left="50.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Button>
+                <Button fx:id="buttonAtualizarCliente" mnemonicParsing="false" onAction="#carregarTelaAtualizarCliente" prefWidth="209.0" text="Atualizar um cliente">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="60.0" left="50.0" />
+                    </VBox.margin>
+                </Button>
+                <Button fx:id="buttonRemoverCliente" mnemonicParsing="false" onAction="#carregarTelaRemoverCliente" prefWidth="209.0" text="Remover um cliente">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="60.0" left="50.0" />
+                    </VBox.margin>
+                </Button>
+                <Button fx:id="buttonConsultarCliente" mnemonicParsing="false" onAction="#carregarTelaConsultarCliente" text="Consultar todos os clientes">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets left="50.0" />
+                    </VBox.margin>
+                </Button>
+            </children>
+        </VBox>
+       <Button layoutX="303.0" layoutY="435.0" mnemonicParsing="false" onAction="#voltar" text="Voltar" />
+    </children>
+</AnchorPane>
