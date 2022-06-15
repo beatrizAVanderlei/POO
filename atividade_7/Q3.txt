@@ -1,0 +1,1 @@
+Não será possível ampliar o reuso de código no cálculo do imc de homens e mulheres, afinal, cada gênero possuí parâmetros diferentes de comparação para definir se um imc está ideal, abaixo ou acima do que deveria. Sendo assim, só é possível o reuso da base de código do toString.

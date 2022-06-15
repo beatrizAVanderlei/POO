@@ -1,0 +1,42 @@
+Foi necessário utilizar instanceof na solução da questão, tanto na classe Agenda quanto na classe de teste.
+Na classe Agenda, para poder adicionar os parâmetros e separá-los em tipo Amigos e tipo Conhecido pode-se utilizar a sobrecarga de métodos adicionar, separando-os pelo tipo do parâmetro.
+Exemplo:
+
+public void adicionar(Amigos pessoa){
+        if(quantidadeContatos < this.tamanho) {
+            this.contatos[quantidadeContatos] = pessoa;
+            quantidadeAmigos++;
+            quantidadeContatos = quantidadeAmigos + quantidadeConhecidos;
+        }
+        else{
+            System.out.println("Não é possível adicionar a lista");
+        }
+    }
+
+    public void adicionar(Conhecido pessoa) {
+        if (quantidadeContatos < this.tamanho) {
+            this.contatos[quantidadeContatos] = pessoa;
+            quantidadeConhecidos++;
+            quantidadeContatos = quantidadeConhecidos + quantidadeAmigos;
+        }
+        else{
+            System.out.println("Não é possível adicionar a lista");
+        }
+    }
+
+Já na classe teste, poderia utilizar a sobrecarga de métodos toString, contidos nas classes Amigos e Conhecido, ou o uso do .getSimpleName para pegar o nome da classe e compara-lo.
+Exemplo sobrecarga de métodos:
+
+        for(int i = 0; i < contatos.getQuantidadeContatos(); i++){
+            System.out.println(lista[i]);
+        }
+
+Exemplo com .getSimpleName():
+
+        for(int i = 0; i < contatos.getQuantidadeContatos(); i++){
+            if (lista[i].getClass().getSimpleName().equals("Conhecido")) {
+                System.out.println(((Conhecido) lista[i]).getEmail());
+            } else {
+                System.out.println(((Amigos) lista[i]).getAniversario());
+            }
+        }

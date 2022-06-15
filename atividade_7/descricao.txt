@@ -1,0 +1,67 @@
+/*
+
+Q1
+
+Escreva a classe LampadaFluorescente como sendo
+herdeira da classe Lampada (Lista 1).
+A classe LampadaFluorescente deve ter um campo que
+represente o comprimento da lâmpada em centímetros.
+Substitua o método de mostrar estado em Lampada
+pelo método toString, de maneira que este último
+informe o estado da lâmpada.
+Sobrescreva o método toString na subclasse reusando o
+máximo de código possível.
+Não esqueça de testar seu código e demonstrar o uso
+de comportamento polimórfico.
+
+Q2
+
+Usando herança e polimorfismo, crie um programa
+para calcular IMC (Índice de Massa Corporal =
+peso/altura^2
+
+) de uma pessoa e avalia-lo,
+
+informando se a pessoa está no peso ideal, abaixo
+ou acima do recomendado.
+A avaliação do IMC é feita de maneira
+diferenciada para homens e mulheres:
+
+Homem                            | Mulher
+IMC < 20.7 : Abaixo do peso ideal| IMC < 19 : Abaixo do peso ideal
+20.7 < IMC < 26.4: Peso ideal    | 19 < IMC < 25.8: Peso ideal
+IMC > 26.4 : Acima do peso ideal | IMC > 25.8 : Acima do peso ideal
+
+Q3
+
+Avalie o reuso de código obtido pela solução da
+questão 2
+É possível ampliá-lo? Explique.
+Em caso afirmativo, escreva o novo código.
+A explicação teórica deverá ser salva em um
+arquivo texto, que deverá fazer parte da entrega.
+
+Q4
+
+Crie uma classe chamada Pessoa, com nome e idade. Crie
+uma classe Amigo, que herda de Pessoa e possui uma data
+de aniversário. Crie uma classe Conhecido, que herda de
+Pessoa e possui um e-mail.
+Todas as classes devem ter 2 construtores: um que inicializa
+os atributos com valores passados como parâmetro e outro
+sem parâmetros.
+Crie uma classe Agenda, que armazena pessoas em um
+vetor. Crie uma classe de teste para a classe Agenda que:
+adiciona contatos à agenda
+imprime a quantidade de amigos e conhecidos na agenda
+imprime o aniversário dos amigos e o e-mail dos conhecidos
+
+Q5
+
+Discuta: Foi necessário utilizar instanceof na solução
+da questão 4? Se sim, como seria possível evitar o
+uso desse operador?
+A explicação teórica deverá ser salva em um
+arquivo texto, que deverá fazer parte da entrega.
+
+*/

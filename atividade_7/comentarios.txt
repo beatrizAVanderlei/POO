@@ -1,0 +1,11 @@
+/*
+
+Q1: Na classe LampadaFluorescente o método toString está retornando apenas as informações da classe mãe, mas na classe filha há novas informações, relevantes de serem retornadas também (o atributo “comprimento”). O toString da classe mãe poderia ser reusado nesse sentido. 
+
+Q2: O método toString() serve para “imprimir” um objeto. O ideal seria que o resultado do cálculo do IMC fosse dado por outro método, que não fosse o toString().
+
+Q4: Os atributos “quantidadeAmigos”, “quantidadeConhecidos” e “quantidadeContatos” estão sendo inicializados fora do construtor. As variáveis “quantidadeAmigos” e “quantidadeConhecidos” só estão sendo atualizadas quando os métodos de consulta são chamados; faria sentido que elas fossem sendo atualizadas à medida que novos contatos fossem sendo adicionados à agenda.
+
+NOTA: 8.7/10
+
+*/
