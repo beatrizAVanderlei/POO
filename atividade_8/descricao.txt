@@ -1,0 +1,41 @@
+/*
+
+Q1
+
+Atualize o sistema bancário para que seja possível
+existir cliente pessoa física e cliente pessoa jurídica.
+Considere que todo cliente possui código, sendo
+que o código da pessoa física é o CPF, enquanto
+que o código da pessoa jurídica é o CNPJ.
+Em seguida, crie um método no repositório de
+clientes para buscar um cliente pelo código.
+Sua solução deve contemplar comportamento
+polimórfico.
+
+Q2
+
+Usando herança e polimorfismo, crie um programa
+para um sistema de locação de filmes digitais. O
+sistema possui filmes nas categorias: lançamento,
+promoção e infantil. O filme deve ser identificado
+pelo título, categoria e pelo preço de locação.
+Para calcular o preço da locação, considere que:
+Filmes em geral possuem valor de locação de R$4,00;
+Filmes infantis possuem acréscimo de R$2,00;
+Filmes em Lançamento possuem acréscimo de R$ 3,00;
+Filmes em promoção possuem desconto de R$ 2,00.
+
+Q3
+
+A questão anterior foi pensada para lidar com
+categorias fixas, de maneira que um filme é
+infantil, lançamento ou está em promoção.
+Porém, tais categorias podem se misturar na
+prática, ou seja, é possível que um filme infantil seja
+lançamento, por exemplo.
+Discuta e implemente formas de misturar as
+categorias e suas consequências.
+Tome por base a discussão sobre herança versus
+associação entre classes apresentada em aula.
+
+*/

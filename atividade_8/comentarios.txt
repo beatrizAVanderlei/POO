@@ -1,0 +1,11 @@
+/*
+
+Q1: A relação de herança entre as classes Conta, ClientePessoaFisica e ClientePessoaJuridica não está correta. Um cliente do tipo pessoa física não “é” uma conta, da mesma forma que não tem um saldo (quem possui um saldo é uma conta). Uma conta possui um cliente. Além disso, ao fazer que a classe Conta seja abstrata impedimos que possam haver instâncias desse tipo, o que não faz sentido dentro do projeto de um banco.  No repositório de contas, o arrayList está sendo inicializado duas vezes: uma dentro e uma fora do construtor; o ideal seria que fosse inicializado uma vez apenas, dentro. O método de busca de uma conta pelo código deveria receber como parâmetro um código, e então buscar a conta que tivesse esse código. O método de busca está recebendo uma conta e checando se ela existe ou não no array. 
+
+Q2: Os métodos toString() e equals()  não foram sobrescritos. É uma boa prática sobrescrevê-los quando que fizer sentido. 
+
+Q3: A questão pedia que a resposta levasse em consideração herança e associação entre classes. Nenhum dos tópicos foi abrangido. Uma forma de implementar isso seria utilizar associação entre as classes Filme e Preco. Essa classe Preco poderia teria um atributo “valor” e seria uma classe abstrata, mãe de outras classes (PrecoInfantil, PrecoLancamento, etc); essas seriam as classes que iriam alterar o valor do preço de um filme.
+
+NOTA: 6.3/10
+
+*/
