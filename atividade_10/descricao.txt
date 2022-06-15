@@ -1,0 +1,27 @@
+/*
+
+Q1
+
+Reveja o projeto da classe Data (introduzida na
+lista 1 e atualizada na lista 2), a fim de garantir
+que ela possua um construtor que inicializa os
+valores de dia, mês e ano corretamente, verificando
+antes se a data é válida.
+Em caso de data inválida, lance uma exceção. Para
+tanto, crie uma classe de exceção verificada.
+Em seguida, crie um programa para testar seu
+código.
+
+Q2
+
+Atualize a classe de banco de palavras (lista 3)
+para utilizar um arquivo binário para armazenar
+de forma persistente as palavras.
+Não esqueça de criar e tratar exceções para lidar
+com os erros lógicos mais prováveis.
+Teste sua implementação em conjunto com o jogo
+da forca (lista 3), que faz uso do banco de
+palavras, fazendo eventuais ajustes, conforme a
+necessidade.
+
+*/
